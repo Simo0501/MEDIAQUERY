@@ -1,0 +1,19 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.welcome{
+  width: calc ( 100% / 3 );
+  height: 200px;
+  background-color: blue;
+}
+.services{
+  width: calc ( 100% / 3 * 2);
+  height: 200px;
+  background-color: blueviolet;
+}
