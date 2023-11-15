@@ -5,15 +5,37 @@
 }
 .container{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .welcome{
-  width: calc ( 100% / 3 );
   height: 200px;
-  background-color: blue;
+  width: calc(100% / 3 -5rem);
+  margin-top: 5rem;
+  margin-left: 5rem;
 }
 .services{
-  width: calc ( 100% / 3 * 2);
+  width: calc(100% / 3 * 2);
   height: 200px;
   background-color: blueviolet;
+}
+.welcome-title{
+  font-size: 45px;
+}
+.blu{
+  color: #28C0F1;
+}
+.container .welcome p{
+  line-height: 25px;
+}
+.welcome-text{
+  margin-top: 1.5rem;
+}
+.welcome-btn{
+  border: none;
+  color: white;
+  background-color: #28C0F1;
+  border-radius: 20px;
+  padding: 13px;
+  margin-top: 1.5rem;
 }
