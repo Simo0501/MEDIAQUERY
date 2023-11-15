@@ -42,19 +42,20 @@
   padding: 13px;
   margin-top: 1.5rem;
 }
-.service-all-title{
+.title{
   display: flex;
 } 
-.all .service-all-title h2{
+.title h2{
   margin-left: 1rem;
 }
-.service-all-paragraph{
+.paragraph{
   margin-top: 1.5rem;
   margin-left: 0.5rem;
 }
-.service-all-paragraph p{
+.paragraph p{
   line-height: 25px;
 }
+
 @media screen and (max-width: 1168px){
   .welcome,
   .services{
