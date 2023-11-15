@@ -3,24 +3,67 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.container,
+.services{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .welcome{
   width: calc(100% / 3 );
-  height: 200px;
-  background-color: blue;
+  margin-top: 5rem;
 }
 .services{
   width: calc(100% / 3 * 2);
-  height: 200px;
-  background-color: blueviolet;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.service{
+  width:calc(50% - 1rem);
+  
+}
+.welcome-title{
+  font-size: 45px;
+}
+.blu{
+  color: #28C0F1;
+}
+.container .welcome p{
+  line-height: 25px;
+}
+.welcome-text{
+  margin-top: 1.5rem;
+}
+.welcome-btn{
+  border: none;
+  color: white;
+  background-color: #28C0F1;
+  border-radius: 20px;
+  padding: 13px;
+  margin-top: 1.5rem;
+}
+.service-all-title{
+  display: flex;
+} 
+.all .service-all-title h2{
+  margin-left: 1rem;
+}
+.service-all-paragraph{
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+}
+.service-all-paragraph p{
+  line-height: 25px;
 }
 @media screen and (max-width: 1168px){
   .welcome,
   .services{
+    width: 100%;
+  }
+  
+}
+@media screen and ( max-width: 600px){
+  .service{
     width: 100%;
   }
   
