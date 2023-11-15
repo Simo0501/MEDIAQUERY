@@ -11,7 +11,7 @@
 }
 .welcome{
   width: calc(100% / 3 -5rem );
-  margin-top: 7rem;
+  margin-top: 4rem;
   margin-left: 5rem;
 }
 .services{
@@ -62,7 +62,7 @@
 .service-musicapp,
 .service-best,
 .service-world{
-  margin-top: 3.5rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 1168px){
@@ -75,6 +75,7 @@
 @media screen and ( max-width: 600px){
   .service{
     width: 100%;
+    margin-top: 0.5rem;
   }
   
 }
