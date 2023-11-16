@@ -10,16 +10,15 @@
   flex-wrap: wrap;
 }
 .welcome{
-  width: calc(100% / 3 -5rem );
-  margin-top: 4rem;
+  width: calc(100% / 3 -5);
   margin-left: 5rem;
+  margin-top: 4rem;
 }
 .services{
   width: calc(100% / 3 * 2);
-  gap: 1rem;
 }
 .service{
-  width:calc(50% - 1rem);
+  width:calc(50% );
   
 }
 .welcome-title{
@@ -68,13 +67,29 @@
 
 @media screen and (max-width: 1168px){
   .welcome,
-  .services{
+  .services {
     width: 100%;
   }
   
 }
+@media screen and (max-width: 1160px){
+  .welcome,
+  .welcome-btn{
+    width:calc( 100% );
+    background-color: aqua;
+  }
+  
+}
+@media screen and  (max-width:1130px){
+  .welcome{
+    width: 100%;
+    background-color: yellow;
+  }
+  
+}
 @media screen and ( max-width: 600px){
-  .service{
+  .service,
+  .welcome {
     width: 100%;
     margin-top: 0.5rem;
   }
